@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contact</title>
+
+  <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    
+    <!-- googlefonts -->
+    <link href="https://fonts.googleapis.com/css?family=Finger+Paint" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Handlee|Roboto" rel="stylesheet">
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    
+    <!-- animate css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+    
+    <!-- external css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    
+    <!-- jquery first -->
+    <script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
+    
+    <!-- popper js for dropdown -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    
+    <!-- bootstrap js -->
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+
+    <!-- favicon -->
+    <link href="assets/images/sailboat.png" rel="icon" type="image/x-icon" />
+
+</head>
+<body>
+
+<div class="container-fluid" id="contact-container">
+  <nav class="navbar navbar-light bg-success sticky-top navbar-expand-lg">
+      <span class="navbar-brand mb-0 h1 text-white">SIBUYAN ISLAND</span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto text-white">
+          <li class="nav-item">
+            <a class="nav-link" href="#home.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+  <div class="container mt-5 mb-5">
+    <div class="text-center">
+      <h1 class="display-3 col-lg-6 col-md-8 col-sm-12 col-xs-12" id="contact-us">CONTACT US</h1> 
+      <hr class="my-4">
+    </div>
+
+    <div class="contact-form">
+      <div class="row mb-5">
+        <div class="col-lg-6 col-md-10 col-sm-12 col-xs-12">
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Full Name</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter Full Name">
+              </div>
+              <div class="form-group">
+                <label for="email-address">Email Address</label>
+                <input type="email" class="form-control" id="email-address" aria-describedby="emailHelp" placeholder="Enter email">
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" class="form-control" id="subject" placeholder="Subject">
+              </div>
+	          	<div class="form-group">
+				  <label for="comment">Message:</label>
+				  <textarea class="form-control" rows="5" id="comment"></textarea>
+				</div>
+              <button type="submit" class="btn btn-primary bg-success">Submit</button>
+            </form>
+        </div>
+
+        <div class="col-lg-6 col-md-10 col-sm-12 col-xs-12" id="sibuyan-map">
+        	<div class="row">
+        		<div class="col-md-12 col-sm-12 col-xs-12">
+        			 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124702.01565561883!2d122.4910333896533!3d12.387083750979878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a44318b9db900b%3A0x2e3d2b6bb34bbd40!2sSibuyan+Island!5e0!3m2!1sen!2sus!4v1537960906233" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+        		</div>
+        		<div class="col-md-12 col-sm-12 col-xs-12">
+   					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+   					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+   					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+   					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+   					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+   					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  	     		</div>
+        	</div>
+        </div>
+
+      </div>
+    </div> 
+   <hr class="my-4">
+
+    <footer class="container-fluid text-center text-white sticky-footer mx-0 bg-success">Copyright &copy; 2018</footer>
+  </div>
+
+
+
+</div>
+</body>
+</html>

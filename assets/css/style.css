@@ -1,10 +1,10 @@
 .navbar {
 	font-family: 'Finger Paint', cursive;
-	color: white;
 }
 
 .nav-link:hover {
 	background-color: #3366FF;
+	color: white;
 }
 
 .container {
@@ -24,7 +24,7 @@
 
 .carousel-item {
 	width: 100%;
-	height: 50vh;
+	height: 70vh;
 }
 
 .carousel-item img {
@@ -32,17 +32,20 @@
 	height: 100%;
 }
 
-/*.row {
-	padding: 0 2%;
-}
-*/
 .sidenav {
 	width: 100;
 	font-family: 'Handlee', cursive;
+	position: fixed;
+}
+
+.empty {
+	height: 200vh;
 }
 
 footer {
-	width: 100%;
+
+	/*position: absolute;
+	bottom: 0%;*/
 	background-color: #006400;
 }
 
@@ -53,27 +56,65 @@ footer {
 h4 {
 	font-weight: bold;
 }
-/*
-@media (min-width: 768px) {
-  .navbar-nav {
-    width: 100%;
-    text-align: center;
-  }
-  .navbar-nav > li {
-    float: none;
-    display: inline-block;
-  }
-  .navbar-nav > li.navbar-right {
-    float: right !important;
-  }
-}*/
-
-/*landing page*/
-/*#landing-container {
-	width: 100%;
-	height: 100vh;
-}*/
 
 #landing-bg-img {
 	width: 100%;
+}
+
+
+/*contact page styles*/
+#contact-container {
+	height: 100vh;
+	margin-top: 0 auto;
+}
+
+#contact-us {
+	font-family: 'Finger Paint', cursive;
+}
+
+/*.form-group {
+	width: 100%;
+	height: 100%;
+/*	background-color: grey;*/
+}*/
+
+iframe {
+	margin-top: 3%;
+}
+#sibuyan-map {
+	width: 100%;
+	height:100%;
+	margin-top: 20px; 
+}
+
+
+
+
+/*about page styles*/
+#about-container {
+	height: 100vh;
+}
+
+.header-about{
+	font-family: 'Finger Paint', cursive;
+	font-weight: bold; 
+
+}
+
+#mission{
+	height: 100%;
+	border-right: 3px solid green;
+}
+
+#vision {
+	border-left: 3px solid green;
+}
+
+.article-header {
+	font-family: 'Handlee', cursive;
+}
+
+.paragraph img {
+	width: 100%;
+	height: 100%;
 }
