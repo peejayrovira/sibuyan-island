@@ -87,12 +87,14 @@ h4 {
 
 /*contact page styles*/
 
-#resorts-1, #resorts-2, #resorts-3 {
-	width: 30 vw;
-	height: 20vh;
-}
+/*#cluster-1, #cluster-2, #cluster-3 {
+	height: 30%;
+}*/
 
-.card {
+/*#cluster-1 {
+	width: 100%
+}*/
+.card{
 	width: 100%;
 	height: 100%;
 }
