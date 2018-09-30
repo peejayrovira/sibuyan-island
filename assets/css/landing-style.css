@@ -1,0 +1,33 @@
+body,
+html {
+	min-height: 100%;
+}
+
+.container {
+	background-image: url(assets/images/calm-clear-water-clouds-1110656.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.jumbotron {
+	position: absolute;
+}
+
+/*#landing-img {
+	position: relative;
+}*/
+
+/*.welcome-header,
+.welcome-sub-header,
+.welcome-tagline {
+	position: absolute;
+	width: 100%;
+	max-width: 960px;
+	font:3em;
+	font-family: 'Countryside two', cursive;
+	color: grey;
+	text-shadow: 1px 1px 0 rgba (0, 0, 0, 0.2);
+	margin: 40px, auto;
+	text-align: center;
+}*/
