@@ -115,14 +115,20 @@ h4 {
 
 }
 
-#mission{
+.gallery img {
+	width: 100%;
+	height: 30vh;
+
+}
+
+/*#mission{
 	height: 100%;
 	border-right: 3px solid green;
 }
 
 #vision {
 	border-left: 3px solid green;
-}
+}*/
 
 .article-header {
 	font-family: 'Handlee', cursive;
